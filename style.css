@@ -12,7 +12,8 @@ h1, h2 {
 }
 
 img {
-  vertical-align: middle;
+  float: left;
+  margin-right: 15px;
   margin-right: 10px;
 }
 
