@@ -23,3 +23,42 @@ section {
   border: 1px solid darkblue;
   border-radius: 5px;
 }
+
+.navbar {
+  background-color: #eee;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #007acc;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.columns section {
+  width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  border-radius: 5px;
+}
+
+.columns section h2 {
+  text-align: center;
+  margin-top: 0;
+}
