@@ -1,0 +1,15 @@
+Create a branch off your local browserhistory repo main branch called ‘bootstrap-1’, and checkout that branch locally. You will do your work for this WOD in that branch. (If you are doing it for the second time, name it ‘bootstrap-2’.)
+
+You will not use LiveReload for this WOD. Instead, use the Live Preview facility within VSCode to see your changes as you make them.
+
+Load the Bootstrap 5 files following the instructions in Bootstrap 5 Hello World. You can delete the google fonts link element. Keep the style.css link, but delete its contents.
+
+Convert the navigation bar into a Bootstrap 5 Navbar. The menu elements should link to the appropriate places in the text as before. Use the “navbar navbar-expand-sm navbar-dark fixed-top bg-dark” classes. You’ll need to style the ‘a.nav-link’ to set the color to white. You’ll want to wrap the nav-links in a container-fluid d-flex justify-content-evenly to justify the links evenly.
+
+Wrap the rest of the page in a Bootstrap 5 Container to improve the margins.
+
+Use Bootstrap 5 Image to float the three logos. Try “float-start”.
+
+Use Bootstrap 5 Grid to put the three browser descriptions into columns. Each column should use class “col”.
+
+Get rid of the extraneous divs referencing the classes from BrowserHistory3.
