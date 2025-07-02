@@ -23,3 +23,30 @@ section {
   border: 1px solid darkblue;
   border-radius: 5px;
 }
+
+.navbar {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.columns section {
+  width: 300px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}
