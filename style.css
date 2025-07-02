@@ -30,6 +30,10 @@ section {
   text-align: center;
 }
 
+a.nav-link {
+  color: white;
+}
+
 .navbar a {
   margin: 0 15px;
   text-decoration: none;
